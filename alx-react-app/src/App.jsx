@@ -8,7 +8,7 @@ function App() {
     <div>
       <Header />
       <MainContent />
-      <UserProfile name="Tsinat" age="32" bio="Loves hiking and playing football" />
+      <UserProfile name="Alice" age="25" bio="Loves hiking and photography" />
       <Footer />
     </div>
   );
