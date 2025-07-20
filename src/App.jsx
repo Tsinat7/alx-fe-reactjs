@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
@@ -20,6 +21,18 @@ function App() {
       </div>
       {/* Optional <Footer /> */}
     </BrowserRouter>
+=======
+import Header from './Header';
+import Dashboard from './Dashboard';
+import UserProvider from './context/UserProvider';
+
+function App() {
+  return (
+    <UserProvider>
+      <Header />
+      <Dashboard />
+    </UserProvider>
+>>>>>>> ea895c5f32aa7a231eb8963efc3624883c53cbf1
   );
 }
 
