@@ -6,7 +6,7 @@ const UserProfile = () => {
       <img
         src="https://via.placeholder.com/150"
         alt="Profile"
-        className="w-24 h-24 sm:w-36 sm:h-36 md:w-36 md:h-36 rounded-full mx-auto"
+        className="w-24 h-24 sm:w-24 sm:h-24 md:w-36 md:h-36 rounded-full mx-auto"
       />
       <h2 className="text-center text-lg sm:text-xl md:text-xl font-semibold mt-4">
         Jane Doe
