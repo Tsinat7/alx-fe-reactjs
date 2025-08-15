@@ -2,15 +2,23 @@ import React from "react";
 
 const UserProfile = () => {
   return (
-    <div className="max-w-xs sm:max-w-sm md:max-w-sm sm:p-4 md:p-8 mx-auto bg-white shadow-md rounded-lg">
+    <div className="max-w-xs sm:max-w-sm md:max-w-sm sm:p-4 md:p-8 mx-auto bg-white shadow-md rounded-lg 
+                    hover:shadow-xl transition-shadow duration-300 ease-in-out">
+      {/* Profile Image with Hover Scale */}
       <img
         src="https://via.placeholder.com/150"
         alt="Profile"
-        className="w-24 h-24 sm:w-24 sm:h-24 md:w-36 md:h-36 rounded-full mx-auto"
+        className="w-24 h-24 sm:w-24 sm:h-24 md:w-36 md:h-36 rounded-full mx-auto 
+                   hover:scale-110 transition-transform duration-300 ease-in-out"
       />
-      <h2 className="text-center text-lg sm:text-xl md:text-xl font-semibold mt-4">
+
+      {/* Heading with Hover Color */}
+      <h2 className="text-center text-lg sm:text-xl md:text-xl font-semibold mt-4 
+                     hover:text-blue-500 transition-colors duration-300 ease-in-out">
         Jane Doe
       </h2>
+
+      {/* Paragraph */}
       <p className="text-center text-sm sm:text-base md:text-base text-gray-600 mt-2">
         Front-End Developer | Loves creating interactive user interfaces
       </p>
