@@ -2,7 +2,7 @@ import React from "react";
 
 const UserProfile = () => {
   return (
-    <div className="max-w-xs sm:max-w-sm md:max-w-md mx-auto p-4 sm:p-8 bg-white shadow-md rounded-lg">
+    <div className="max-w-xs sm:max-w-sm md:max-w-md sm:p-4 md:p-8 mx-auto bg-white shadow-md rounded-lg">
       <img
         src="https://via.placeholder.com/150"
         alt="Profile"
