@@ -1,11 +1,19 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src//*.{js,jsx,ts,tsx}",
+    './index.html',        // Vite entry point
+    './src//*.{js,jsx,ts,tsx}' // All React components
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#1a202c', // Example custom color
+        secondary: '#2d3748'
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
+};

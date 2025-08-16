@@ -1,8 +1,10 @@
-import HomePage from "./components/HomePage";
+// src/App.jsx
+import React from "react";
+import HomePage from "./HomePage"; // import HomePage component
 
 function App() {
   return (
-    <div className="bg-gray-50 min-h-screen">
+    <div className="min-h-screen bg-gray-100">
       <HomePage />
     </div>
   );
